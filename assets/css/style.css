@@ -275,13 +275,13 @@ li~li {
   font-size:0.8125em;
 }
 
-fieldset {
+/*fieldset {
   border: medium none !important;
   margin: 0 0 0.625em;
   min-width: 100%;
   padding: 0;
   width: 100%;
-}
+}*/
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
   width:100%;
@@ -383,13 +383,35 @@ footer {
     float: none;
     width: auto;
   }
+
+  .container { width:31em; }
 }
 
 @media screen and (max-width: 640px) {
 
+  .content-wrapper {
+    clear: both;
+    float: none;
+    width: auto;
+  }
+
+  .content-left {
+    float: none;
+    margin-right: 0;
+    width: auto;
+  }
+
+  .sidebar {
+    clear: both;
+    float: none;
+    width: auto;
+  }
+
+  .container { width:auto; }
+
   .headerNav ul { display: none; }
   .headerNav select { display: inline-block; }
-  /*.portfoliolist img {width: 50%;}*/
+/*  .portfoliolist img {width: 50%;}*/
   .photo-grid li {display:none;}
   
 
