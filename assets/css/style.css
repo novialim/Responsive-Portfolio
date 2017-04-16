@@ -275,13 +275,13 @@ li~li {
   font-size:0.8125em;
 }
 
-/*fieldset {
+fieldset {
   border: medium none !important;
   margin: 0 0 0.625em;
   min-width: 100%;
   padding: 0;
   width: 100%;
-}*/
+}
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
   width:100%;
