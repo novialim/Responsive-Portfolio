@@ -108,3 +108,22 @@
 	transition-delay: 100ms;
 	z-index: 100;
 }
+
+
+@media screen and (max-width: 980px) {
+  /*content proportionally scaled and readability remains optimized at max-width: 980px. No change.*/
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
+.photo-grid li {width:50%;}
+/*  .portfoliolist img {width: 50%;}
+  .photo-grid li {display:none;}
+  */
+
+}
