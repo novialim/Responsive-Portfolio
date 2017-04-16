@@ -175,16 +175,16 @@ li~li {
 	background: #fff;
 }
 
-.content-left{
+.content-left {
 	display: inline-block;
 	float: left;
 	width: 67.5%;
 	background: #fff;
 	border: 0.0625em solid #d6d6d6;
-  margin-bottom: 4.375em;
+  margin-bottom: 1em;
 }
 
-.content-wrapper{
+.content-wrapper {
 	width: 100%;
   max-width:60em;
 	float: left;
@@ -193,12 +193,12 @@ li~li {
   /*overflow: hidden;*/
 }
 
-.portfoliolist{
+.portfoliolist {
   width:100%;
   margin: auto;
 }
 
-.portfoliolist img{
+.portfoliolist img {
   width: 100%;
 }
 
@@ -358,19 +358,37 @@ footer {
     background: #666666;
 }
 
-@media (max-width: 490px) {
-  .headerNav ul     { display: none; }
-  .headerNav select { display: inline-block; }
 
-.portfoliolist img{width: 50%;}
-.photo-grid li{display:none;}
+@media screen and (max-width: 980px) {
+  /*content proportionally scaled and readability remains optimized at max-width: 980px. No change.*/
 
 }
 
-@media only screen and (max-width: 400px) {
-body { font-size:80%;}
+@media screen and (max-width: 768px) {
+  
+  .content-left {
+    float: none;
+    margin-right: 0;
+    width: auto;
+    border: 0;
+  }
 
-.portfoliolist img{width: 50%;}
-.photo-grid li{display:none;}
+  .sidebar {
+    float: none;
+    width: auto;
+  }
+
+  .content-left {
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  .headerNav ul { display: none; }
+  .headerNav select { display: inline-block; }
+  .portfoliolist img {width: 50%;}
+  .photo-grid li {display:none;}
+  
 
 }
