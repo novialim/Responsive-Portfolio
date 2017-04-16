@@ -366,6 +366,12 @@ footer {
 
 @media screen and (max-width: 768px) {
   
+  .content-wrapper {
+    clear: both;
+    float: none;
+    width: auto;
+  }
+
   .content-left {
     float: none;
     margin-right: 0;
@@ -373,16 +379,10 @@ footer {
   }
 
   .sidebar {
+    clear: both;
     float: none;
     width: auto;
   }
-
-/*  .container {
-    float: none;
-    margin-right: 0;
-    width: auto;
-  }*/
-
 }
 
 @media screen and (max-width: 640px) {
