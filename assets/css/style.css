@@ -413,6 +413,7 @@ footer {
   .headerNav select { display: inline-block; }
 /*  .portfoliolist img {width: 50%;}*/
   .photo-grid li {display:none;}
+  .container { width:20em; }
   
 
 }
